@@ -1,1 +1,131 @@
-# basic-web
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mzo0z</title>
+</head>
+
+
+
+<body>
+    <div class="top">
+        <img src="https://cdn.discordapp.com/attachments/1016244506749829122/1068021303623295066/mzo0z.png">
+        <h1>@mzo0z</h1>
+    </div>
+    <div class="boxes">
+        <div class="text">
+            <p>I'm here:</p>
+        </div>
+        <div class="discord box">
+            <p>discord</p>
+            <a href="https://discord.gg/wzebjxRzMV" target="_blank"><img class="circle imgs" src="https://cdn.discordapp.com/attachments/1016244506749829122/1022867285427363970/313.jpg"></a>
+            <a href="https://discord.gg/3psKD4pH4G" target="_blank"><img class="circle imgs" src="https://cdn.discordapp.com/attachments/1016244506749829122/1068021303623295066/mzo0z.png"></a>
+        </div>
+        <div class="more box">
+            <p>else</p>
+            <a href="https://instagram.com/mzo0z" target="_blank"><img class="circle imgs else" src="https://cdn.discordapp.com/attachments/1016244506749829122/1082394065108205658/R.png"></a>
+            <a href="https://www.youtube.com/@mzo0z" target="_blank"><img class="circle imgs else" src="https://cdn.discordapp.com/attachments/1016244506749829122/1082394807600676957/youtube-logo.png"></a>
+        </div>
+    </div>
+</body>
+
+<style>
+    body{
+        background-color: #03045e;
+    }
+    div{
+        background-color: #023e8a;
+    }
+    .circle{
+        border-radius: 100%;
+    }
+    .imgs{
+        height: 100px;
+        width: 100px;
+        margin-top: 25px;
+        margin-bottom: -30px;
+        transition: all 0.3s;
+    }
+    .imgs:hover{
+        height: 150px;
+        width: 150px;
+        box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    }
+    .box p{
+        color: #99d98c;
+        font-size: 20px;
+        margin-bottom: -10px;
+    }
+    .else{
+        height: 90px;
+        width : 90px;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid black;
+        border-radius: 25px;
+        height: 250px;
+        width: 250px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        transition: all 0.2s;
+    }
+
+
+    .boxes{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 100px;
+        height: 550px;
+        width: 55%;
+        margin-left: 20%;
+        margin-top: 25px;
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+        border-radius: 25px;
+    }
+    .text{
+        text-align: center;
+        width: 100%;
+        height: 10%;
+    }
+    p{
+        color: #48cae4;
+        font-size: 50px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .box:hover{
+        height: 300px;
+        width: 300px;
+
+    }
+    .top{
+        display: flex;
+        height: 150px;
+        width: 80%;
+        border-radius: 25px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        transition: all 0.5s;
+        margin-left: 10%;
+    }
+    .top:hover{
+        margin-left: 0%;
+        width: 100%;
+        border-radius: 0px;
+    }
+    img{
+        width: 150px;
+        height: 150px;
+    }
+    h1{
+        color: #00b4d8;
+        margin-top: 40px;
+        font-size: 50px;
+        margin-left: -25px;
+    }
+</style>
+</html>
